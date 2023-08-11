@@ -105,8 +105,8 @@ namespace TL2_Mikuro
                 try
                 {
                     UpdateStatusBar("Initilizing the dll");
-                    Stopwatch stopwatch = new Stopwatch();
-                    stopwatch.Start();
+                    //Stopwatch stopwatch = new Stopwatch();
+                    //stopwatch.Start();
                     // Get the thread ID of the current thread
                     int threadId = ExternalMethod.GetCurrentThreadId();
 
@@ -119,8 +119,8 @@ namespace TL2_Mikuro
                     {
                         UpdateStatusBar("DLL init finished, wave your spell now");
                         editorDLLInitSucess = true;
-                        stopwatch.Stop();
-                        UpdateConsoleText("Init DLL cost: " + stopwatch.ElapsedMilliseconds + "ms", false);
+                        //stopwatch.Stop();
+                        //UpdateConsoleText("Init DLL cost: " + stopwatch.ElapsedMilliseconds + "ms", false);
                     }
                     else
                     {
