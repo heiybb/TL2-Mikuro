@@ -1,5 +1,7 @@
 # TL2-Mikuro
 
+If you are more a terminal-person, use [`TL2-Mikuro-Console`](https://github.com/heiybb/TL2-Mikuro-Console) instead.
+
 ## Why Build This
 Each time I attempt to pack/unpack a MOD, have to launch the Editor and endure a 20-second wait as it loads numerous unrelated functions.  
 TL2-Mikuro, which takes merely 3 seconds to initialize.  
